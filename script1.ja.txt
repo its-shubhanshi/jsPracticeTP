@@ -1,0 +1,27 @@
+"use strict";
+
+function calculate(num1,num2,operator){
+    let result;
+    switch (operator) {
+        case "+":
+            result=num1+num2 ;
+            return result
+
+        case "-":
+            result=num1-num2;
+            return result
+    
+        default:
+            return "no operation"
+    }
+}
+
+console.log(calculate(4,5,"+"));
+
+const isReverse=(str)=>{
+    for(let char=1; char<=str.length; char++){
+
+    }
+} 
+isReverse(str="Aman Awasthi")
+  
